@@ -37,3 +37,11 @@ body {
     background-color: black;
     color: white;
 }
+
+.news_last {
+    opacity: 0.5;
+}
+
+.font_BMEULJIRO {
+    font-family: "BMEULJIRO.otf", sans-serif;
+}
