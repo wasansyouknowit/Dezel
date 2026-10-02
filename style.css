@@ -32,6 +32,11 @@ img {
     margin: 0 auto;
 }
 
+.Dezel_head {
+    width: 10%;
+    margin: 0 auto;
+}
+
 body {
     text-align: center;
     background-color: black;
@@ -46,14 +51,61 @@ body {
     font-family: "BMEULJIRO.otf", sans-serif;
 }
 
+.notice1 {
+    width: 400px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 0px;
+
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+
+    line-height: 1.8;
+
+}
+
+.notice2 {
+    width: 600px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 0px;
+
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    box-sizing: border-box;
+
+    line-height: 1.8;
+
+}
+
+.체험학습_안내문 {
+    font-size: 16px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 450px;
+    margin: 0 auto;
+    line-height: 1.8;
+
+}
+
+
+
+
 @media (max-width: 600px) {
+    p {
+        font-size: 13px;
+    }
+
     nav {
         gap: 8px;
         flex-wrap: nowrap;
     }
 
     nav a {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     img {
@@ -62,10 +114,52 @@ body {
         height: auto;
     }
 
+    .Dezel_head {
+    width: 20%;
+    margin: 0 auto;
+    }
+
     iframe {
         max-width: 100%;
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 9;
     }
+
+    .notice1 {
+        width: 80%;
+        max-width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        box-sizing: border-box;
+
+
+        line-height: 1.8;
+
+    }
+
+    .notice2 {
+        width: 100%;
+        max-width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        box-sizing: border-box;
+
+
+        line-height: 1.8;
+
+    }
+
+    .체험학습_안내문 {
+    font-size: 13px;
+    text-align: left;
+    width: 250px;
+    margin: 0 auto;
+}
 }
