@@ -45,3 +45,27 @@ body {
 .font_BMEULJIRO {
     font-family: "BMEULJIRO.otf", sans-serif;
 }
+
+@media (max-width: 600px) {
+    nav {
+        gap: 8px;
+        flex-wrap: nowrap;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    iframe {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
