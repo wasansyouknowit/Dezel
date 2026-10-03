@@ -47,6 +47,32 @@ body {
     opacity: 0.5;
 }
 
+.news_list {
+    width: 800px;
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.news_list_item {
+    display: block;
+
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+
+    color: white;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: "BMEULJIRO.otf", sans-serif;
+    font-size: 24px;
+}
+
+.news_list_item:hover {
+    background-color: #white;
+    color: #3d2db3;
+}
+
 .font_BMEULJIRO {
     font-family: "BMEULJIRO.otf", sans-serif;
 }
@@ -88,9 +114,19 @@ body {
     width: 450px;
     margin: 0 auto;
     line-height: 1.8;
-
 }
 
+.글 {
+    font-size: 16px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    margin: 0 auto;
+    line-height: 1.8;
+
+}
 
 
 
@@ -115,8 +151,8 @@ body {
     }
 
     .Dezel_head {
-    width: 20%;
-    margin: 0 auto;
+        width: 20%;
+        margin: 0 auto;
     }
 
     iframe {
@@ -157,9 +193,16 @@ body {
     }
 
     .체험학습_안내문 {
-    font-size: 13px;
-    text-align: left;
-    width: 250px;
-    margin: 0 auto;
-}
+        font-size: 13px;
+        text-align: left;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .글 {
+        font-size: 13px;
+        text-align: left;
+        width: 250px;
+        margin: 0 auto;
+    }
 }
